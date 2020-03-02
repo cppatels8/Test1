@@ -10,12 +10,10 @@ from test import app as application
 # formatter = logging.Formatter("%(asctime)s - %(module)s - %(levelname)s - %(message)s")
 # handler.setFormatter(formatter)
 # application.logger.addHandler(handler)
-<<<<<<< HEAD
+
 WWE = 1234
 POS = 1233456
-=======
 AWW = 12345
->>>>>>> Added AWW in test1
 
 if __name__ == '__main__':
     application.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
