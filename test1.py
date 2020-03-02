@@ -11,6 +11,7 @@ from test import app as application
 # handler.setFormatter(formatter)
 # application.logger.addHandler(handler)
 WWE = 1234
+POS = 1233456
 
 if __name__ == '__main__':
     application.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
