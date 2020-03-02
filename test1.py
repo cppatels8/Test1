@@ -10,7 +10,7 @@ from test import app as application
 # formatter = logging.Formatter("%(asctime)s - %(module)s - %(levelname)s - %(message)s")
 # handler.setFormatter(formatter)
 # application.logger.addHandler(handler)
-
+AWW = 12345
 
 if __name__ == '__main__':
     application.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
